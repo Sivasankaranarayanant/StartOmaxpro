@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>StartOMax</title>
+<style>
+body
+{
+	margin:0px;
+	padding: 0px;
+
+}
+	h1{
+		margin-left: 500px;
+		font-family: unset;
+	}
+	img
+	{
+		width: auto;
+		height: 100px;
+	}
+	p
+	{
+		font-family: cursive;
+		color: white;
+		font-size: 15px;
+	}
+	li
+	{
+		font-size: 15px;
+	}
+	.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+	
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<h1 style="text-align: center;">We Provide Workshops On</h1><br><br>
+<div id="div1" style="background-image: url('cse.jpg');">
+	<p style="text-align: center;font-size: 30px">CSE Workshops</p><hr style="text-align: center; background-color: white;width: 10%;height:2px"><br><br>
+	 <div id="sub1" class="row" style="margin-left: 10px">
+	        <div class="col-2" >
+	    	   <img src="app.png"><br>
+	    	    <p >AppDevelopment</p>
+	        </div>
+	        <div class="col-2" >
+	    	   <img src="cloud.png"><br>
+	    	    <p > Cloud Computing</p>
+	        </div>
+	        <div class="col-2" >
+	    	   <img src="iot.png"><br>
+	    	    <p>IOT Workshop</p>
+	        </div>
+	        <div class="col-2" >
+	    	   <img src="java.png"><br>
+	    	    <p >Java Workshop</p>
+	        </div>
+	        <div class="col-2" >
+	    	   <img src="web-designing.png"><br>
+	    	    <p >Web Designing</p>
+	        </div>
+	        <div class="col-2" >
+	    	   <img src="web-development.png"><br>
+	    	    <p >Web Development</p>
+	        </div>
+	 </div>
+
+ 
+</div><br><br>
+<div class="container" style="background-color: grey">
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Day1</a></li>
+    <li><a data-toggle="tab" href="#menu1">Day2</a></li>
+  </ul>
+
+  <div class="tab-content">
+       <div id="home" class="tab-pane fade in active">
+          <button class="accordion">Session 1</button>
+              <div class="panel">
+                <ol>
+                	<li style="font-size: 20px;">Introduction to the Android world</li>
+                	    <ul>
+                	    	<li>Android Architecture</li>
+                	    	<li>IO's Vs Android</li>
+                	    	<li>Scope as an Android App Developer</li>
+                	    	<li>Understanding Eclipse IDE</li>
+                	    	<li>What is API Levels?</li>
+                	    </ul>
+                
+                	<li style="font-size: 20px;">Understanding the Building Environment for Android</li>
+                	    <ul>
+                	    	<li>Basic programming languages intro: Java and XML</li>
+                	    	<li>What is Front-End and Back-End environment</li>
+                	    	<li>Designing Front-end through XML</li>
+                	    	<li>Designing Backend through JAVA</li>
+                	    	<li>Practicing various design Layouts</li>
+                	    </ul>
+                
+                	<li style="font-size: 20px;">Understanding Layouts</li>
+                	    <ul>
+                	    	<li>What are Layouts and Widgets?</li>
+                	    	<li>Working with various layouts: Linear, Relative, Table, Frame</li>
+                	    	<li>Working with various Widgets: Text-View, Edit-Text, Buttons, Image-Views, and Scroll View etc.</li>
+                	    	<li>Practicing Layout Nesting's on various Layouts</li>
+                	    	<li>What is Weight-sum and Gravity?</li>
+                	    </ul>
+                </ol>
+               
+           </div>   
+           <button class="accordion">Session 2</button>
+              <div class="panel">
+                <ol>
+                	<li style="font-size: 20px;">Getting familiar with Activity</li>
+                	    <ul>
+                	    	<li>What are Activity and its Life-Cycle?</li>
+                	    	<li>Designing an Activity</li>
+                	    	<li>Practicing its Life-Cycle</li>
+                	    	<li>What is Manifest File</li>
+                	    	<li>Registering the Activity in Manifest File</li>
+                	    	<li>Setting up the Android Virtual Devices</li>
+                	    	<li>Testing your Hello World Application</li>
+                	    </ul>
+                
+                	<li style="font-size: 20px;">Introduction to Intents</li>
+                	    <ul>
+                	    	<li>What are Intents</li>
+                	    	<li>Types of Intents: Explicit and Implicit</li>
+                	    	<li>Starting another Activity using both types of IntentsL</li>
+                	    	<li>What is Bundle?</li>
+                	    	<li>Sending Data from one Activity to another</li>
+                	    	<li>Building Camera application, fetching image using Intent</li>
+                	    </ul>
+                
+                	<li style="font-size: 20px;">Understanding various Notifications</li>
+                	    <ul>
+                	    	<li>What is Toast?</li>
+                	    	<li>What is Dialog and Alert-Dialog?</li>
+                	    	<li>What is action-bar Notification?</li>
+                	    </ul>
+                </ol>
+               
+           </div>   
+       </div>
+       <div id="menu1" class="tab-pane fade">
+          <button class="accordion">Section 3</button>
+              <div class="panel">
+                    <ol>
+                	     <li style="font-size: 20px;"> Developing Applications</li>
+                	    <ul>
+                	    	<li>Splash Screen Application</li>
+                	    	<li>Music Player Application</li>
+                	    	<li>SMS Application</li>
+                	    	<li>Camera Application</li>
+                	    	<li>Email Application</li>
+                	    	<li>Text-To-Speech Application</li>
+                	    </ul>
+                    </ol>
+               </div>   
+           <button class="accordion">Section 4</button>
+              <div class="panel">
+                    <ol>
+                	     <li style="font-size: 20px;"> Quick Competition</li>
+                	    <ul>
+                	    	<li>After the hand on theory and practical experience from the workshop, Zonal Round Competition will be conducted for the participants.</li>
+                	    
+                	    </ul>
+                	     <li style="font-size: 20px;">Certificate Distribution</li>
+                	    <ul>
+                	    	<li> Certificate of Merit will be provided to all Zonal Round Winners and Certificate of Participation will be provided to all the Quick Round Participants (Excluding Merit Participants).</li>
+                	    	
+                	    </ul>
+                    </ol>
+               </div>   
+       </div>
+  </div>
+</div>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
